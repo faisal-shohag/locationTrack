@@ -96,7 +96,7 @@ function getDMS(dd, longOrLat) {
           details: result
         });
 
-        fetch('http://www.mapquestapi.com/geocoding/v1/reverse?key=AtmREPJavuSKY8JtyBAXAI0MgjKcWdGc&location=25.718239099999998,89.2631587&includeRoadMetadata=true&includeNearestIntersection=true')
+        fetch('https://www.mapquestapi.com/geocoding/v1/reverse?key=AtmREPJavuSKY8JtyBAXAI0MgjKcWdGc&location=25.718239099999998,89.2631587&includeRoadMetadata=true&includeNearestIntersection=true')
     .then(res => res.json())
     .then((out) => {
        /// console.log(out)
